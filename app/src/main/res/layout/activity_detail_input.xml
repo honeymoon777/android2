@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_detail_input">
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="Nama"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Alamat"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textTelepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="No Telepon"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_width="155dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_edittext"
+        android:text="Panggil"
+        android:onClick="dial"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+</LinearLayout>
